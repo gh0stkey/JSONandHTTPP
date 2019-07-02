@@ -12,10 +12,10 @@ from java.awt import BorderLayout
 class BurpExtender(IBurpExtender, ITab):
 
     def registerExtenderCallbacks(self, callbacks):
-        print 'JSONP&HTTPP by [Vulkey_Chen]\nBlog: gh0st.cn\nTeam: MSTSEC'
+        print 'JSON&HTTPP by [Vulkey_Chen]\nBlog: gh0st.cn\nTeam: MSTSEC'
         self._cb = callbacks
         self._hp = callbacks.getHelpers()
-        self._cb.setExtensionName('JSONP&HTTPP')
+        self._cb.setExtensionName('JSON&HTTPP')
         self.mainPanel = JPanel()
         self.mainPanel.setLayout(BorderLayout())
 
