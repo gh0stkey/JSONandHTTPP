@@ -94,7 +94,7 @@ class BurpExtender(IBurpExtender, ITab):
         return self._result
 
     def getTabCaption(self):
-        return 'JSONP&HTTPP'
+        return 'JSON&HTTPP'
 
     def getUiComponent(self):
         return self.mainPanel
