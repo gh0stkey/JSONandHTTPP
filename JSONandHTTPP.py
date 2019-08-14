@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# Auther: Vulkey_Chen
+# Author: Vulkey_Chen
 # Blog: gh0st.cn
 # Team: MSTSEC
 
